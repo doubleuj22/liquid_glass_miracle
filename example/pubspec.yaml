@@ -1,5 +1,5 @@
-name: liquid_glass_bottom_example
-description: Example for liquid_glass_bottom.
+name: liquid_glass_miracle_example
+description: Example for liquid_glass_miracle.
 publish_to: none
 version: 1.0.0
 
@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  liquid_glass_bottom:
+  liquid_glass_miracle:
     path: ../
 
 dev_dependencies:

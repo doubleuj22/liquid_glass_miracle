@@ -1,7 +1,7 @@
-name: liquid_glass_bottom
+name: liquid_glass_miracle
 description: A smooth, draggable liquid-glass bottom navigation bar for Flutter.
 version: 0.1.0
-repository: https://github.com/doubleuj22/liquid_glass_bottom
+repository: https://github.com/doubleuj22/liquid_glass_miracle
 topics:
   - bottom-navigation
   - liquid-glass
