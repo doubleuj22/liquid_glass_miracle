@@ -1,4 +1,4 @@
-# liquid_glass_bottom_nav
+# liquid_glass_bottom
 
 A lightweight, draggable liquid-glass bottom navigation bar for Flutter. It is
 implemented entirely in Dart and works on Android, iOS, web, macOS, Windows,
@@ -21,9 +21,9 @@ Until the package is published to pub.dev:
 
 ```yaml
 dependencies:
-  liquid_glass_bottom_nav:
+  liquid_glass_bottom:
     git:
-      url: https://github.com/doubleuj22/liquid_glass_bottom_nav.git
+      url: https://github.com/doubleuj22/liquid_glass_bottom.git
       ref: main
 ```
 
@@ -31,15 +31,15 @@ For a local checkout:
 
 ```yaml
 dependencies:
-  liquid_glass_bottom_nav:
-    path: ../liquid_glass_bottom_nav
+  liquid_glass_bottom:
+    path: ../liquid_glass_bottom
 ```
 
 ## Usage
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:liquid_glass_bottom_nav/liquid_glass_bottom_nav.dart';
+import 'package:liquid_glass_bottom/liquid_glass_bottom.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

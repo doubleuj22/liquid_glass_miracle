@@ -2,7 +2,7 @@ import 'dart:ui' show Tristate;
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:liquid_glass_bottom_nav/liquid_glass_bottom_nav.dart';
+import 'package:liquid_glass_bottom/liquid_glass_bottom.dart';
 
 void main() {
   testWidgets('renders items and reports a tapped selection', (tester) async {

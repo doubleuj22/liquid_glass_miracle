@@ -1,5 +1,5 @@
-name: liquid_glass_bottom_nav_example
-description: Example for liquid_glass_bottom_nav.
+name: liquid_glass_bottom_example
+description: Example for liquid_glass_bottom.
 publish_to: none
 version: 1.0.0
 
@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  liquid_glass_bottom_nav:
+  liquid_glass_bottom:
     path: ../
 
 dev_dependencies:
