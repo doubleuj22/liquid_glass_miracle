@@ -94,13 +94,19 @@ The constructor exposes active and inactive colors, background color, height,
 horizontal margin, selection inset, blur strength, radius, icon size, label
 size, icon-label spacing, animation duration, and haptic feedback.
 
-## Publishing checklist
+## Publishing
 
-1. Add screenshots or a GIF to `example/` or `doc/`.
-2. Run `flutter test` and `flutter analyze`.
-3. Run `dart pub publish --dry-run`.
-4. Push the folder to its own GitHub repository.
-5. Publish with `dart pub publish` when ready.
+Releases are published from GitHub Actions with pub.dev's keyless OIDC
+authentication. Update the version in `pubspec.yaml` and `CHANGELOG.md`, commit
+the release, then push a matching version tag:
+
+```sh
+git tag v0.1.1
+git push origin main v0.1.1
+```
+
+The tag version must exactly match the version in `pubspec.yaml`. Normal branch
+pushes and pull requests never publish a package version.
 
 ## License
 
